@@ -29,14 +29,14 @@ This allows faster identification of privilege escalation opportunities.
 Directory Structure
 ===================
 peass-automation-tool/
-├── linpeas.sh
-├── peass_runner.py
-├── output/
-│ ├── raw/
-│ │ └── linpeas_raw_<timestamp>.txt
-│ └── filtered/
-│ └── high_risk_findings_<timestamp>.txt
-└── README.md
+linpeas.sh
+peass_runner.py
+output/
+raw/
+linpeas_raw_<timestamp>.txt
+filtered/
+high_risk_findings_<timestamp>.txt
+README.md
 
 How to use
 ==========
@@ -68,3 +68,4 @@ Capture-the-Flag (CTF) challenges
 Learning Linux privilege escalation techniques
 Automating repetitive enumeration tasks
    
+
